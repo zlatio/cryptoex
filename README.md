@@ -1,21 +1,13 @@
 # Cryptoex
 
-**TODO: Add description**
+Basic Elixir async processes example
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `cryptoex` to your list of dependencies in `mix.exs`:
+Clone this repo
+`mix do deps.get, deps.compile`
+`iex -S mix`
 
-```elixir
-def deps do
-  [
-    {:cryptoex, "~> 0.1.0"}
-  ]
-end
-```
+## Usage
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/cryptoex](https://hexdocs.pm/cryptoex).
-
+`Cryptoex.rates_for(["USD", "AUD", "GBP", "CHF", "EUR"])`
