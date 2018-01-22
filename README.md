@@ -5,7 +5,9 @@ Basic Elixir async processes example
 ## Installation
 
 Clone this repo
+
 `mix do deps.get, deps.compile`
+
 `iex -S mix`
 
 ## Usage
